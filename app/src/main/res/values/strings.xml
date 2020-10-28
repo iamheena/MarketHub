@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MarketHub</string>
+    <string name="messageWithLink"><a href="https://www.google.com/">Forget MPIN</a></string>
+    <string name="forgotpass"><a href="https://www.google.com/">Forgot Password?</a></string>
+    <string name="signup"><a href="https://www.google.com/">Sign Up</a></string>
+    <string name="close_drawer">close</string>
+    <string name="open_drawer">open</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+</resources>

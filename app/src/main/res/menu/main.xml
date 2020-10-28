@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Notification"
+    android:textSize="10dp">
+    <menu>
+        <item android:title="Dashboard"
+            android:id="@+id/dashboard"
+            android:icon="@drawable/arrow"></item>
+        <item android:title="MarketWatch"
+            android:id="@+id/marketwatch"
+            android:icon="@drawable/arrow"></item>
+        <item android:title="Reports"
+            android:id="@+id/reports"
+            android:icon="@drawable/arrow"></item>
+        <item android:title="Analytics Tools"
+            android:id="@+id/analytictool"
+            android:icon="@drawable/arrow"></item>
+        <item android:title="MF"
+            android:id="@+id/mf"
+            android:icon="@drawable/arrow"></item>
+        <item android:title="Advisory"
+            android:id="@+id/advisory"
+            android:icon="@drawable/arrow"></item>
+        <item android:title="News"
+            android:id="@+id/news"
+            android:icon="@drawable/arrow"></item>
+        <item android:title="OtherProduct"
+            android:id="@+id/product"
+            android:icon="@drawable/arrow"></item>
+    </menu>
+</item>
+</menu>

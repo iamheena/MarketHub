@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/cancel_email"
+                android:background="@drawable/cancel"></ImageView>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserId"
+            android:id="@+id/user_id"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/verdana"></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            android:id="@+id/email_id"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/verdana"></RadioButton>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/user_name_logo"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/verdana"
+            ></TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:hint="fjjehfeuffdfdf"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/edt_emailid"
+            android:fontFamily="@font/verdana"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/verdana"
+            android:text="Open an account"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:gravity="center"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/verdana"
+            android:text="forgot password"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:gravity="center"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:id="@+id/btnpop_login"
+            android:background="@drawable/login_button"></Button>
+
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
